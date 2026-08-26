@@ -55,7 +55,7 @@ PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1002647690158'))  # Premium log
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '-1003767308484').split()] #(make sure bot is admin)
 support_chat_id = environ.get('SUPPORT_CHAT_ID', '-100')  # Support group id (make sure bot is admin)
 reqst_channel = environ.get('REQST_CHANNEL_ID', '-100')  # Request channel id (make sure bot is admin)
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/')  # Support group link (make sure bot is admin)
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/OdiaMoviesbot')  # Support group link (make sure bot is admin)
 
 # FORCE_SUB 
 auth_req_channels = environ.get("AUTH_REQ_CHANNELS", "-1002737451602")# requst to join Channel for force sub (make sure bot is admin) only for bot ADMINS  
@@ -64,15 +64,15 @@ auth_channels     = environ.get("AUTH_CHANNELS", "-1002180054439")# Channels for
 # ============================
 # Payment Configuration
 # ============================
-QR_CODE = environ.get('QR_CODE', 'https://graph.org/file/e419f801841c2ee3db0fc.jpg')    # QR code image for payments
-OWNER_UPI_ID = environ.get('OWNER_UPI_ID', 'ɴᴏ ᴀᴠᴀɪʟᴀʙʟᴇ ʀɪɢʜᴛ ɴᴏᴡ')    # Owner UPI ID for payments
+QR_CODE = environ.get('QR_CODE', 'https://ibb.co/tT9ZQMfQ')    # QR code image for payments
+OWNER_UPI_ID = environ.get('OWNER_UPI_ID', 'rana-premium-botz@fam')    # Owner UPI ID for payments
 
 STAR_PREMIUM_PLANS = {
-    10: "7day",
-    20: "15day",    
-    40: "1month", 
-    55: "45day",
-    75: "60day",
+    50: "7day",
+    100: "15day",    
+    150: "1month", 
+    200: "45day",
+    250: "60day",
 }  # Premium plans with their respective durations in days
 
 # ============================
